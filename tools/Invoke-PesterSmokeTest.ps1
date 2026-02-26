@@ -187,4 +187,11 @@ if ($fail.Count -eq 0) {
 }
 Write-Host ""
 
-exit $fail.Count
+# When run as a file, exit with the failure count so callers and CI can
+# detect failure via exit code.
+# When run via Invoke-Expression, $MyInvocation.CommandOrigin is 'Runspace'
+# and 'exit' would kill the calling shell session. In that case we skip the
+# exit call -- the summary output is sufficient.
+if ($MyInvocation.CommandOrigin -ne 'Runspace') {
+  exit $fail.Count
+}
