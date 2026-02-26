@@ -3,8 +3,6 @@
 ![Status](https://img.shields.io/badge/status-incubator-orange)
 ![Platform](https://img.shields.io/badge/platform-windows-blue)
 ![OS](https://img.shields.io/badge/os-windows%2011%2024H2-blue)
-![PowerShell](https://img.shields.io/badge/powershell-7.4%2B-blue)
-![Pester](https://img.shields.io/badge/pester-5.7%2B-blue)
 ![Continuous Delphi](https://img.shields.io/badge/org-continuous--delphi-red)
 
 Development environment setup guides for the `Continuous Delphi` organization.
@@ -113,4 +111,5 @@ This repository follows the `Continuous Delphi` organization taxonomy. See
 - `docs/org-taxonomy.md` -- naming and tagging conventions
 - `docs/versioning-policy.md` -- release and versioning rules
 - `docs/repo-lifecycle.md` -- lifecycle states and graduation criteria
+
 
