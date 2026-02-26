@@ -45,11 +45,11 @@ ecosystem.
 | Tool | Reference Version | Purpose |
 |---|---|---|
 | [Git for Windows](docs/tooling/git-for-windows.md) | 2.47 | Version control. Required for all repositories. |
+| [GitHub CLI](docs/tooling/github-cli.md) | 2.65 | Command-line interface for GitHub. Used for releases, PRs, and workflow automation. |
+| [Pester](docs/tooling/pester.md) | 5.7 | PowerShell testing framework. Required for running the cd-ci-toolchain test suite. |
+| [PowerShell](docs/tooling/powershell.md) | 7.4 | Required runtime for the PowerShell implementation of cd-ci-toolchain and all CI scripts. |
 | [TortoiseGit](docs/tooling/tortoisegit.md) | 2.16 | Windows Shell GUI for Git. Optional but recommended for teams new to Git. |
 | [VSCodium](docs/tooling/vscodium.md) | 1.96 | Open-source VS Code build. Primary editor for scripts, configs, and documentation. |
-| [GitHub CLI](docs/tooling/github-cli.md) | 2.65 | Command-line interface for GitHub. Used for releases, PRs, and workflow automation. |
-| [PowerShell](docs/tooling/powershell.md) | 7.4 | Required runtime for the PowerShell implementation of cd-ci-toolchain and all CI scripts. |
-| [Pester](docs/tooling/pester.md) | 5.7 | PowerShell testing framework. Required for running the cd-ci-toolchain test suite. |
 
 ---
 
@@ -64,10 +64,10 @@ These tasks establish the baseline environment every other tool depends on.
 | Task | Depends On |
 |---|---|
 | [Install Git for Windows](docs/tasks/setup-git-for-windows.md) | Nothing |
-| [Install TortoiseGit](docs/tasks/setup-tortoisegit.md) | Git for Windows |
-| [Install VSCodium](docs/tasks/setup-vscodium.md) | Nothing |
-| [Install GitHub CLI](docs/tasks/setup-github-cli.md) | Git for Windows |
 | [Install PowerShell 7.4+](docs/tasks/setup-powershell-windows.md) | Nothing |
+| [Install GitHub CLI](docs/tasks/setup-github-cli.md) | Git for Windows |
+| [Install TortoiseGit](docs/tasks/setup-tortoisegit.md) | Git for Windows |
+| [Install VSCodium](docs/tasks/setup-vscodium.md) | Git for Windows; PowerShell 7.4+ |
 | [Install Pester 5.7+](docs/tasks/setup-pester-windows.md) | PowerShell 7.4+ |
 
 ### Verification
@@ -113,3 +113,4 @@ This repository follows the `Continuous Delphi` organization taxonomy. See
 - `docs/org-taxonomy.md` -- naming and tagging conventions
 - `docs/versioning-policy.md` -- release and versioning rules
 - `docs/repo-lifecycle.md` -- lifecycle states and graduation criteria
+
