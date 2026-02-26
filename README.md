@@ -13,10 +13,12 @@ Development environment setup guides for the `Continuous Delphi` organization.
 
 ## Who this is for
 
-If your Delphi shop has been shipping software since before "The Cloud" meant something other than a collection of mist in the sky above your head, this is your starting
-point. This guide assumes you know your way around Delphi and Windows. It does not assume you know a lot about PowerShell,
-Pester, or any of the various tools that make up an environment for automated workflows.
- 
+If your Delphi shop has been shipping software since before "The Cloud" meant something other
+than a collection of mist in the sky above your head, this is your starting point. This guide
+assumes you know your way around Delphi and Windows. It does not assume you know a lot about
+PowerShell, Pester, or any of the various tools that make up an environment for automated
+workflows.
+
 Every guide here is written for a working Delphi developer who needs to get a machine configured
 correctly and get back to work. Steps are explicit. Nothing is assumed to already be installed.
 Gotchas encountered on real machines are documented where they were found.
@@ -26,7 +28,8 @@ Gotchas encountered on real machines are documented where they were found.
 ## How to use this guide
 
 Start with the [Tooling Index](#tooling-index) to understand what each tool is and why
-`Continuous Delphi` uses it. Then follow the [Task Index](#task-index) for installation and configuration instructions.
+`Continuous Delphi` uses it. Then follow the [Task Index](#task-index) for installation
+and configuration instructions.
 
 Each task document lists its dependencies at the top. Work through them in order on a fresh
 machine and you will arrive at a fully configured development environment.
@@ -35,8 +38,9 @@ machine and you will arrive at a fully configured development environment.
 
 ## Tooling Index
 
-These are some of the tools used across the `Continuous Delphi` organization. Each entry links to a
-dedicated page covering the tool's purpose, the version required, and its role in this ecosystem.
+These are some of the tools used across the `Continuous Delphi` organization. Each entry links
+to a dedicated page covering the tool's purpose, the version required, and its role in this
+ecosystem.
 
 | Tool | Reference Version | Purpose |
 |---|---|---|
@@ -99,6 +103,8 @@ It will graduate to `stable` once:
 
 Until graduation, breaking links may occur.
 
+---
+
 ## Part of Continuous Delphi
 
 This repository follows the `Continuous Delphi` organization taxonomy. See
@@ -107,4 +113,3 @@ This repository follows the `Continuous Delphi` organization taxonomy. See
 - `docs/org-taxonomy.md` -- naming and tagging conventions
 - `docs/versioning-policy.md` -- release and versioning rules
 - `docs/repo-lifecycle.md` -- lifecycle states and graduation criteria
-

@@ -5,6 +5,26 @@
 - PowerShell 7.4+ ([setup-powershell-windows.md](setup-powershell-windows.md))
 - Pester 5.7+ ([setup-pester-windows.md](setup-pester-windows.md))
 
+## Shortcut
+
+If you prefer to run the verification as a single script rather than follow
+the manual steps below:
+
+```powershell
+Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/continuous-delphi/cd-doc-dev-setup/main/tools/Invoke-PesterSmokeTest.ps1').Content
+```
+
+Or if you have already cloned this repository:
+
+```powershell
+pwsh ./tools/Invoke-PesterSmokeTest.ps1
+```
+
+The manual steps below cover exactly what the script does. Follow them if you prefer
+to work through each check individually, or if the shortcut itself fails.
+
+---
+
 ## Purpose
 
 These smoke tests confirm that PowerShell 7 and Pester 5 are correctly installed, that the
@@ -60,19 +80,12 @@ the inbox version. Try closing and reopening your terminal, then repeat the impo
 
 ## Step 5: Run a minimal Pester smoke test
 
-Create a temporary test file to confirm Pester can discover and execute a test:
-
 ```powershell
-$tmp = Join-Path $env:TEMP 'SmokeTest.Tests.ps1'
-Set-Content -Path $tmp -Value @'
-Describe 'Smoke' {
-  It 'Pester is working' {
-    1 + 1 | Should -Be 2
-  }
-}
-'@
-Invoke-Pester -Path $tmp -Output Detailed
-Remove-Item $tmp
+Invoke-Pester -Configuration (New-PesterConfiguration | ForEach-Object {
+  $_.Run.ScriptBlock = { Describe 'Smoke' { It '1 + 1 equals 2' { (1+1) | Should -Be 2 } } }
+  $_.Output.Verbosity = 'Detailed'
+  $_
+})
 ```
 
 Expected output:
@@ -83,13 +96,10 @@ Starting discovery in 1 files.
 Discovery found 1 tests in Xms.
 Running tests.
 Describing Smoke
-  [+] Pester is working Xms
+  [+] 1 + 1 equals 2 Xms
 Tests completed in Xms
 Tests Passed: 1, Failed: 0, Skipped: 0, Inconclusive: 0, NotRun: 0
 ```
-
-<img width="722" height="470" alt="image" src="https://github.com/user-attachments/assets/979c9774-e58b-4c72-83d8-b2f4ddc15cab" />
-
 
 A passing result confirms PowerShell 7 and Pester 5 are correctly installed and functional.
 
