@@ -17,7 +17,7 @@
 
 .EXAMPLE
   # Run directly (requires prior clone):
-  pwsh ./tools/Invoke-SmokeTest.ps1
+  pwsh ./tools/Invoke-PesterSmokeTest.ps1
 
   # Run without cloning (requires internet access):
   Invoke-Expression (Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/continuous-delphi/cd-doc-dev-setup/main/tools/Invoke-PesterSmokeTest.ps1').Content
@@ -58,8 +58,9 @@ Write-Host ""
 Write-Host "PowerShell" -ForegroundColor White
 $psMajor = $PSVersionTable.PSVersion.Major
 $psMinor = $PSVersionTable.PSVersion.Minor
-$psPatch = $PSVersionTable.PSVersion.Patch
-$psVersionString = "{0}.{1}.{2}" -f $psMajor, $psMinor, $psPatch
+# Use ToString() for display - avoids strict mode failure on missing Patch
+# property when the script runs via Invoke-Expression
+$psVersionString = $PSVersionTable.PSVersion.ToString()
 
 $psVersionOk = ($psMajor -gt $RequiredPSMajor) -or
                ($psMajor -eq $RequiredPSMajor -and $psMinor -ge $RequiredPSMinor)
