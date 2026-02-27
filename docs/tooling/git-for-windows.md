@@ -45,4 +45,5 @@ installation instructions on Windows 11.
 - `git --version` should return `git version 2.47.x.windows.x` or later after installation.
 
 ## Links
+
 IdeasAwakened Blog Post: [Setup signed commits on Windows using GPG](https://ideasawakened.com/post/configure-git-for-signed-commits-on-windows-using-gpg)
