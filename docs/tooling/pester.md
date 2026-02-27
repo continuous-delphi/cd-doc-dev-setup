@@ -10,7 +10,7 @@ tooling in the organization.
 ## Version Required
 
 | Requirement | Value |
-|---|---|
+| --- | --- |
 | Minimum version | 5.7 |
 | Recommended version | Latest stable 5.x |
 | Pester 3.x (inbox) | Not supported |
@@ -27,9 +27,9 @@ The correct version must be explicitly imported before running tests.
 
 ## Download
 
-- PowerShell Gallery: https://www.powershellgallery.com/packages/Pester
-- GitHub: https://github.com/pester/Pester
-- Documentation: https://pester.dev
+- PowerShell Gallery: [https://www.powershellgallery.com/packages/Pester](https://www.powershellgallery.com/packages/Pester)
+- GitHub: [https://github.com/pester/Pester](https://github.com/pester/Pester)
+- Documentation: [https://pester.dev](https://pester.dev)
 
 ## Installation
 

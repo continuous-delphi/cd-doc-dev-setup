@@ -10,7 +10,7 @@ repositories.
 ## Version Required
 
 | Requirement | Value |
-|---|---|
+| --- | --- |
 | Minimum version | 1.96 |
 | Recommended version | Latest stable |
 
@@ -23,8 +23,8 @@ repositories.
 
 ## Download
 
-- Latest release: https://vscodium.com/
-- GitHub releases: https://github.com/VSCodium/vscodium/releases/latest
+- Latest release: [https://vscodium.com/](https://vscodium.com/)
+- GitHub releases: [https://github.com/VSCodium/vscodium/releases/latest](https://github.com/VSCodium/vscodium/releases/latest)
 - winget: `winget install --id VSCodium.VSCodium`
 
 ## Installation
@@ -35,7 +35,7 @@ instructions on Windows 11.
 ## Recommended Extensions
 
 | Extension | Purpose |
-|---|---|
+| --- | --- |
 | PowerShell (ms-vscode.PowerShell) | Syntax highlighting, IntelliSense, debugging for .ps1 files |
 | GitLens | Enhanced Git history and blame annotations |
 | YAML (redhat.vscode-yaml) | Schema validation for GitHub Actions workflow files |
@@ -56,10 +56,9 @@ the VMware display driver.
    `"disable-hardware-acceleration": true`
 4. Save the file and restart VSCodium.
 
-
 ## Notes
 
-- VSCodium uses the Open VSX Registry (https://open-vsx.org/) for extensions rather than the
+- VSCodium uses the Open VSX Registry ([https://open-vsx.org/](https://open-vsx.org/)) for extensions rather than the
   Microsoft Marketplace. Most popular extensions are available. If a specific Microsoft extension
   is not found, check Open VSX directly.
 - Settings and keybindings are compatible with Visual Studio Code. If your team uses VS Code,

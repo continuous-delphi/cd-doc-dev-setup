@@ -12,7 +12,7 @@ Git is the foundational tool to learn first. Everything else in this guide build
 ## Version Required
 
 | Requirement | Value |
-|---|---|
+| --- | --- |
 | Minimum version | 2.47 |
 | Recommended version | Latest stable |
 
@@ -25,8 +25,8 @@ Git is the foundational tool to learn first. Everything else in this guide build
 
 ## Download
 
-- Latest release: https://git-scm.com/download/win
-- GitHub releases: https://github.com/git-for-windows/git/releases/latest
+- Latest release: [https://git-scm.com/download/win](https://git-scm.com/download/win)
+- GitHub releases: [https://github.com/git-for-windows/git/releases/latest](https://github.com/git-for-windows/git/releases/latest)
 - winget: `winget install --id Git.Git`
 
 ## Installation

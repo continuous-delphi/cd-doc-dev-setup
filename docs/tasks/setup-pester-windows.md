@@ -24,7 +24,7 @@ Install-Module -Name Pester -MinimumVersion 5.7.0 -Force -SkipPublisherCheck -Sc
 Flag explanations:
 
 | Flag | Reason |
-|---|---|
+| --- | --- |
 | `-MinimumVersion 5.7.0` | Ensures Pester 5 is installed, not an older version |
 | `-Force` | Allows installation even when another version is already present |
 | `-SkipPublisherCheck` | Required because inbox Pester 3.4 is Microsoft-signed; this allows a different publisher |

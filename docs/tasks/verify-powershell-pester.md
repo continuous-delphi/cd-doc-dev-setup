@@ -54,7 +54,7 @@ $PSVersionTable.PSVersion
 
 Expected output shows `Major` as `7` and `Minor` as `4` or higher:
 
-```
+```text
 Major  Minor  Patch  PreReleaseLabel BuildLabel
 -----  -----  -----  --------------- ----------
 7      5      4
@@ -90,7 +90,7 @@ Invoke-Pester -Configuration (New-PesterConfiguration | ForEach-Object {
 
 Expected output:
 
-```
+```text
 Pester v5.7.x
 Starting discovery in 1 files.
 Discovery found 1 tests in Xms.
@@ -106,7 +106,7 @@ A passing result confirms PowerShell 7 and Pester 5 are correctly installed and 
 ## Troubleshooting
 
 | Symptom | Likely cause | Fix |
-|---|---|---|
+| --- | --- | --- |
 | `pwsh` not found | PowerShell 7 not installed or not in PATH | Complete [setup-powershell-windows.md](setup-powershell-windows.md), open a new terminal |
 | `Output` parameter ambiguous error | Pester 3 is loaded | Run `Import-Module Pester -MinimumVersion 5.7.0 -Force` |
 | Pester version shows 3.4.0 after import | `-Force` not used | Add `-Force` to the `Import-Module` command |

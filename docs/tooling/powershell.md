@@ -13,7 +13,7 @@ on the same machine. `Continuous Delphi` requires PowerShell 7.4 or later.
 ## Version Required
 
 | Requirement | Value |
-|---|---|
+| --- | --- |
 | Minimum version | 7.4 |
 | Recommended version | Latest stable 7.x |
 | Windows PowerShell 5.1 | Not supported |
@@ -29,8 +29,8 @@ Always invoke `Continuous Delphi` scripts with `pwsh` (PowerShell 7), not `power
 
 ## Download
 
-- Latest release: https://github.com/PowerShell/PowerShell/releases/latest
-- Documentation: https://learn.microsoft.com/en-us/powershell/
+- Latest release: [https://github.com/PowerShell/PowerShell/releases/latest](https://github.com/PowerShell/PowerShell/releases/latest)
+- Documentation: [https://learn.microsoft.com/en-us/powershell/](https://learn.microsoft.com/en-us/powershell/)
 
 ## Installation
 

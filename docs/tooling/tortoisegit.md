@@ -13,7 +13,7 @@ installed first.
 ## Version Required
 
 | Requirement | Value |
-|---|---|
+| --- | --- |
 | Minimum version | 2.16 |
 | Recommended version | Latest stable |
 | Prerequisite | Git for Windows 2.47+ |
@@ -26,8 +26,8 @@ installed first.
 
 ## Download
 
-- Latest release: https://tortoisegit.org/download/
-- GitHub releases: https://github.com/TortoiseGit/TortoiseGit/releases/latest
+- Latest release: [https://tortoisegit.org/download/](https://tortoisegit.org/download/)
+- GitHub releases: [https://github.com/TortoiseGit/TortoiseGit/releases/latest](https://github.com/TortoiseGit/TortoiseGit/releases/latest)
 
 ## Installation
 

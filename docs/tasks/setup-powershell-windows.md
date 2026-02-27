@@ -25,7 +25,7 @@ prompt when it appears.
 
 ### Option B: Manual installer
 
-1. Go to https://github.com/PowerShell/PowerShell/releases/latest
+1. Go to [https://github.com/PowerShell/PowerShell/releases/latest](https://github.com/PowerShell/PowerShell/releases/latest)
 2. Download the `.msi` file for your architecture (most machines: `PowerShell-7.x.x-win-x64.msi`)
 3. Run the installer and accept the defaults
 4. Ensure "Add PowerShell to PATH Environment Variable" is checked
@@ -40,7 +40,7 @@ pwsh --version
 
 Expected output:
 
-```
+```text
 PowerShell 7.5.x
 ```
 

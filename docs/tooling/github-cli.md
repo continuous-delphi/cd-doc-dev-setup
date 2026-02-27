@@ -13,7 +13,7 @@ development but becomes useful once you are publishing releases or working with 
 ## Version Required
 
 | Requirement | Value |
-|---|---|
+| --- | --- |
 | Minimum version | 2.65 |
 | Recommended version | Latest stable |
 | Prerequisite | Git for Windows 2.47+ |
@@ -27,8 +27,8 @@ development but becomes useful once you are publishing releases or working with 
 
 ## Download
 
-- Latest release: https://cli.github.com/
-- GitHub releases: https://github.com/cli/cli/releases/latest
+- Latest release: [https://cli.github.com/](https://cli.github.com/)
+- GitHub releases: [https://github.com/cli/cli/releases/latest](https://github.com/cli/cli/releases/latest)
 - winget: `winget install --id GitHub.cli`
 
 ## Installation

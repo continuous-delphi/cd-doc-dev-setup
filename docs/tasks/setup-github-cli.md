@@ -24,8 +24,8 @@ winget install --id GitHub.cli
 
 ### Option B: Manual installer
 
-1. Go to https://cli.github.com/ or
-   https://github.com/cli/cli/releases/latest
+1. Go to [https://cli.github.com/](https://cli.github.com/) or
+   [https://github.com/cli/cli/releases/latest](https://github.com/cli/cli/releases/latest)
 2. Download the `.msi` installer for your architecture
    (`gh_2.x.x_windows_amd64.msi`)
 3. Run the installer and accept the defaults
@@ -40,7 +40,7 @@ gh --version
 
 Expected output should be something like:
 
-```
+```cmd
 gh version 2.65.x (2026-xx-xx)
 https://github.com/cli/cli/releases/tag/v2.65.x
 ```
@@ -56,7 +56,7 @@ gh auth login
 Follow the interactive prompts:
 
 | Prompt | Recommended choice |
-|---|---|
+| --- | --- |
 | Where do you use GitHub? | `GitHub.com` |
 | Preferred protocol | `HTTPS` |
 | Authenticate with credentials | `Login with a web browser` |

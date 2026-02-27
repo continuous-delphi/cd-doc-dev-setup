@@ -16,7 +16,6 @@ VSCodium is an open-source build of Visual Studio Code with Microsoft telemetry 
 removed. It is the recommended editor for PowerShell scripts, GitHub Actions YAML, JSON
 datasets, and Markdown documentation across Continuous Delphi repositories.
 
-
 ## Installation Options
 
 ### Option A: winget (recommended)
@@ -27,8 +26,8 @@ winget install --id VSCodium.VSCodium
 
 ### Option B: Manual installer
 
-1. Go to https://vscodium.com/ or
-   https://github.com/VSCodium/vscodium/releases/latest
+1. Go to [https://vscodium.com/](https://vscodium.com/) or
+   [https://github.com/VSCodium/vscodium/releases/latest](https://github.com/VSCodium/vscodium/releases/latest)
 2. Download the `.exe` installer for your architecture
    (`VSCodiumSetup-x64-1.x.x.exe`)
 3. Run the installer and accept the defaults
@@ -41,7 +40,7 @@ codium --version
 
 Expected output shows the version number on the first line like this:
 
-```
+```text
 1.96.x
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 x64
@@ -56,11 +55,11 @@ Open VSCodium and confirm Git integration is working:
 
 ## Recommended Extensions
 
-VSCodium uses the Open VSX Registry (https://open-vsx.org/) rather than the Microsoft
+VSCodium uses the Open VSX Registry ([https://open-vsx.org/](https://open-vsx.org/)) rather than the Microsoft
 Marketplace. Install extensions from the Extensions panel (`Ctrl+Shift+X`).
 
 | Extension ID | Purpose |
-|---|---|
+| --- | --- |
 | `ms-vscode.powershell` | PowerShell syntax highlighting, IntelliSense, and debugging |
 | `eamodio.gitlens` | Enhanced Git history, blame annotations, and repository insights |
 | `redhat.vscode-yaml` | Schema validation for GitHub Actions workflow files |
@@ -75,16 +74,16 @@ the VMware display driver.
 
 **Fix:**
 
-1. Open the Command Palette: `Ctrl+Shift+P`
-2. Type `Configure Runtime Arguments` and select it
-3. The file `argv.json` will open in the editor
-4. Add the following line inside the JSON object:
+- Open the Command Palette: `Ctrl+Shift+P`
+- Type `Configure Runtime Arguments` and select it
+- The file `argv.json` will open in the editor
+- Add the following line inside the JSON object:
 
 ```json
 "disable-hardware-acceleration": true
 ```
 
-5. Save the file (`Ctrl+S`) and restart VSCodium
+- Save the file (`Ctrl+S`) and restart VSCodium
 
 The file should look similar to this after the change:
 

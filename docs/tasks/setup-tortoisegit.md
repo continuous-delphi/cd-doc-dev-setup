@@ -19,7 +19,7 @@ not replace the `git` command line -- both remain available after installation.
 
 TortoiseGit is not currently available via winget. Download the installer directly:
 
-1. Go to https://tortoisegit.org/download/
+1. Go to [https://tortoisegit.org/download/](https://tortoisegit.org/download/)
 2. Download the 64-bit `.msi` installer
    (`TortoiseGit-2.x.x.x-64bit.msi`)
 3. Run the installer and accept the defaults
