@@ -43,3 +43,6 @@ installation instructions on Windows 11.
 - Git for Windows bundles its own `gpg.exe` at `C:\Program Files\Git\usr\bin\gpg.exe`.
   This is used for signed commits when configured. See signed commits documentation for details.
 - `git --version` should return `git version 2.47.x.windows.x` or later after installation.
+
+## Links
+IdeasAwakened Blog Post: [Setup signed commits on Windows using GPG](https://ideasawakened.com/post/configure-git-for-signed-commits-on-windows-using-gpg)
