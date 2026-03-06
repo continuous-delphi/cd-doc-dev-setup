@@ -65,3 +65,15 @@ taking precedence in PATH.
   Always use `pwsh` for `Continuous Delphi` scripts.
 - PowerShell 7 updates do not affect Windows PowerShell 5.1.
 - You can have multiple PowerShell 7 minor versions installed simultaneously as needed.
+
+## Additional modules
+
+### PSScriptAnalyzer
+
+Used by delphi-compiler-versions and likely other repos
+
+```powershell
+Install-Module -Name PSScriptAnalyzer -Scope CurrentUser -Force
+```
+
+see also: [https://learn.microsoft.com/en-us/powershell/module/psscriptanalyzer](https://learn.microsoft.com/en-us/powershell/module/psscriptanalyzer)
