@@ -50,3 +50,8 @@ immediately after the `program` declaration:
 This keeps your `Debug` configuration as the single source of truth for IDE
 development while giving headless build environments a clean, predictable
 way to opt out of IDE-specific behavior with a single define.
+
+
+## Links
+
+- [TestInsight Home](https://bitbucket.org/sglienke/testinsight/wiki/Home)
