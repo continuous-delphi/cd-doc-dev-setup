@@ -46,4 +46,6 @@ installation instructions on Windows 11.
 
 ## Links
 
-IdeasAwakened Blog Post: [Setup signed commits on Windows using GPG](https://ideasawakened.com/post/configure-git-for-signed-commits-on-windows-using-gpg)
+- `2021-12-05` IdeasAwakened Blog Post: [Setup signed commits on Windows using GPG](https://ideasawakened.com/post/configure-git-for-signed-commits-on-windows-using-gpg)
+
+- `2020-08-14` Embarcadero YouTube Video: [Using Git Source Code Control in Delphi and RAD Studio, feat. Ian Barker](https://youtu.be/JSswgwPbjNs)
