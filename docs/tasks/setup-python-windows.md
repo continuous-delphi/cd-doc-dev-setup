@@ -115,6 +115,14 @@ To list all installed Python runtimes managed by the `py` launcher:
 py list
 ```
 
+## Install uv Python Package Manager
+
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+see: https://docs.astral.sh/uv/
+
 ## Notes
 
 - The long path registry change made in Step 3 requires a **reboot** to fully take
