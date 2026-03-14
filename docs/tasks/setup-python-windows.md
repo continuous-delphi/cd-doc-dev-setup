@@ -33,7 +33,7 @@ installer opens, click **Install Python** to begin.
 The Python Install Manager runs a configuration helper in a terminal window. Answer
 the prompts as follows:
 
-**Prompt 1 — Long path support:**
+**Prompt 1 -- Long path support:**
 
 ```
 Windows is not configured to allow paths longer than 260 characters.
@@ -43,7 +43,7 @@ Update setting now? [y/N]
 Enter `Y` and press Enter. This applies a system-wide registry change to enable
 long path support. A reboot will be required for this to take full effect.
 
-**Prompt 2 — Global shortcuts directory:**
+**Prompt 2 -- Global shortcuts directory:**
 
 ```
 The global shortcuts directory is not configured.
@@ -60,7 +60,7 @@ Expected output after this step:
 PATH has been updated, and will take effect after opening a new terminal.
 ```
 
-**Prompt 3 — Install CPython runtime:**
+**Prompt 3 -- Install CPython runtime:**
 
 ```
 You do not have the latest Python runtime.
@@ -75,7 +75,7 @@ Installing Python 3.14.3.
 Extracting: ...................................................................✅
 ```
 
-**Prompt 4 — View online help:**
+**Prompt 4 -- View online help:**
 
 ```
 View online help? [y/N]
